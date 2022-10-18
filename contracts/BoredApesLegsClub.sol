@@ -1305,8 +1305,6 @@ contract BoredApesLegsClub is ERC721, Ownable {
   }
 
   function withdraw() public onlyOwner {
-    // =============================================================================
-
     // This will transfer the remaining contract balance to the owner.
     // Do not remove this otherwise you will not be able to withdraw the funds.
     // =============================================================================
